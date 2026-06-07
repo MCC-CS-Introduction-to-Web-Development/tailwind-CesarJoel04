@@ -45,9 +45,9 @@ export default async function ProductPage({ params }: ProductPageProps) {
   return (
     <section className="max-w-3xl mx-auto px-4 py-12">
       <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
-        <p className="text-sm text-gray-500 mb-2">Product ID: {product.id}</p>
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">{product.name}</h1>
-        <p className="text-lg text-gray-700">{product.description}</p>
+        <p className="text-md text-sky-900 mb-2">Product ID: {product.id}</p>
+        <h1 className="text-4xl font-bold text-sky-900 mb-4">{product.name}</h1>
+        <p className="text-xl text-sky-900">{product.description}</p>
       </div>
     </section>
   );
